@@ -1,7 +1,7 @@
 my_list = [1, 2]
 i = 1
 sum = 0
-while my_list[i] <= 13:
+while my_list[i] <= 4000000:
     my_list.append(my_list[i-1] + my_list[i])
     if my_list[i] % 2 == 0 :
         sum = sum + my_list[i]
