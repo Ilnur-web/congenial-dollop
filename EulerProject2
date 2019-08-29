@@ -1,0 +1,9 @@
+my_list = [1, 2]
+i = 1
+sum = 0
+while my_list[i] <= 13:
+    my_list.append(my_list[i-1] + my_list[i])
+    if my_list[i] % 2 == 0 :
+        sum = sum + my_list[i]
+    i = i+1
+print(sum)
